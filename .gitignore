@@ -1,0 +1,35 @@
+# Byte-compiled / cache files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pdb
+*.pkl
+
+# Test & coverage outputs
+.coverage
+htmlcov/
+.pytest_cache/
+.cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# IDE / editor settings
+.vscode/
+.idea/
+*.swp
+
+# OS-specific
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+
+# Jupyter notebooks checkpoints (if you add notebooks later)
+.ipynb_checkpoints/
