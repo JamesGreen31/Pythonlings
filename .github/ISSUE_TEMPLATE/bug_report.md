@@ -23,7 +23,7 @@ assignees: ''
 
 
 
-\## Description
+## Description
 
 
 
@@ -39,7 +39,7 @@ Please include which exercise number you are on and what message the driver give
 
 
 
-\## Your implementation of the exercise
+## Your implementation of the exercise
 
 
 
@@ -59,7 +59,7 @@ Please put your implementation within the code blocks
 
 
 
-\## Steps to Reproduce
+## Steps to Reproduce
 
 
 
@@ -77,7 +77,7 @@ Steps to reproduce the behavior:
 
 
 
-\## Expected Behavior
+## Expected Behavior
 
 
 
@@ -89,7 +89,7 @@ A clear and concise description of what you expected to happen.
 
 
 
-\## Actual Behavior
+## Actual Behavior
 
 
 
@@ -101,7 +101,7 @@ What actually happened when you ran the code/test.
 
 
 
-\## Environment
+## Environment
 
 
 
@@ -115,7 +115,7 @@ What actually happened when you ran the code/test.
 
 
 
-\## Screenshots / Output
+## Screenshots / Output
 
 
 
@@ -127,7 +127,7 @@ If applicable, add screenshots or the exact output/error messages.
 
 
 
-\## Additional Context
+## Additional Context
 
 
 
