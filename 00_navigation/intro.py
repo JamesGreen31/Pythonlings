@@ -1,3 +1,4 @@
+# REMOVE THIS TO MOVE ON
 
 """
 Welcome to Pythonlings!
@@ -30,4 +31,4 @@ Try it now:
 
 def continue_course():
     # TODO: Change this to return 1
-    return 1
+    return 0

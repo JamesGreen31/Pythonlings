@@ -6,4 +6,7 @@ def run(module):
     with redirect_stdout(buf):
         module.countdown(3)
     output = buf.getvalue().strip().splitlines()
-    assert output == ["3", "2", "1", "Blast off!"]
+
+    assert output[0].isdigit(), "countdown did not start with a number"
+    assert output[-1] == "Blast off!", "countdown did not end with 'Blast off!'"
+    assert output == ["3", "2", "1", "Blast off!"], "countdown sequence did not match the expected pattern"

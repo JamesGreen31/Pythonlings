@@ -28,7 +28,7 @@ def run_exercises():
             with open(path) as f:
                 first_line = f.readline().strip()
 
-            # Load learner’s code
+            # Load learners code
             learner_mod = load_module(path, name="exercise")
 
             # Load matching test
@@ -36,29 +36,29 @@ def run_exercises():
             test_path = os.path.join(TESTS_DIR, test_file)
 
             if not os.path.exists(test_path):
-                print(f"⚠ No test found for {ex}")
+                print(f" No test found for {ex}")
                 continue
 
             test_mod = load_module(test_path, name="test")
 
             try:
                 test_mod.run(learner_mod)
-                print(f"✅ {ex} passed!")
+                print(f" {ex} passed!")
             except AssertionError as e:
-                print(f"❌ {ex} failed. did not receive expected results.")
+                print(f" {ex} failed. Details: {e}")
                 return
             except Exception as e:
-                print(f"💥 {ex} crashed: {e}")
+                print(f" {ex} crashed: {e}")
                 return
 
             # If this exercise had REMOVE line, stop here
             if "REMOVE THIS TO MOVE ON" in first_line:
-                print(f"⏹ Module Passed! Remove the \"# REMOVE TO MOVE ON\" banner to continue")
+                print(f" Module Passed! Remove the \"# REMOVE TO MOVE ON\" banner to continue")
                 return
 
-        print(f"✅ {module} complete!")
+        print(f" {module} complete!")
 
-    print("\n🎉 All modules finished!")
+    print("\n All modules finished!")
 
 
 if __name__ == "__main__":
