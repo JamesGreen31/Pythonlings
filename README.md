@@ -40,6 +40,8 @@ Learners work through small, self-contained exercises that introduce Python conc
    cd Pythonlings
    ```
 
+   ALTERNATIVE: Download the ZIP archive for the latest release
+
 2. Run the driver:
 
    ```bash
