@@ -3,7 +3,7 @@ import os
 import sys
 
 ROOT = os.path.dirname(__file__)
-MODULES = ["00_navigation", "01_basics", "02_control_flow", "03_data_structures","04_classes_and_methods"]
+MODULES = ["00_navigation", "01_basics", "02_control_flow", "03_data_structures","04_classes_and_methods", "05_IO_Operations"]
 TESTS_DIR = os.path.join(ROOT, "tests")
 
 
